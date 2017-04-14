@@ -36,7 +36,7 @@ public class MobileService {
                         "'+(373)-79-85-85-85' OR\n" +
                         "'+373 79 666-999' OR\n");
         }
-        while (flag = true && numberOfTries < 4);
+        while (flag == false && numberOfTries < 4);
         System.exit(0);
         return "";
     }
@@ -61,7 +61,7 @@ public class MobileService {
             } else
                 System.out.println("You should introduce a value between 10 and 500");
         }
-        while (flag = true && numberOfTries < 3);
+        while (flag == false && numberOfTries < 3);
         System.exit(0);
         return 0;
     }
